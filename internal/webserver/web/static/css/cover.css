@@ -1,6 +1,7 @@
 /*
  * Globals
  */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap";
 
 /* Custom default button */
 .btn-secondary,
@@ -16,17 +17,18 @@
  */
 
 body {
-    background: url("../../assets/background.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: linear-gradient(to left top, #111827, #141d2e, #172136, #1b263e, #1e2b46);
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
     -ms-flex-pack: center;
     -webkit-box-pack: center;
     justify-content: center;
+}
+
+.firmio-logo {
+    font-weight: 700;
+    font-family: Poppins, sans-serif !important;
 }
 
 td {
