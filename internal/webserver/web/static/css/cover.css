@@ -12,6 +12,14 @@
     /* Prevent inheritance from `body` */
 }
 
+.btn-light,
+.btn-outline-light,
+.btn-light:hover,
+.btn-outline-light:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
 /*
  * Base structure
  */
@@ -65,11 +73,13 @@ a:hover {
 }
 
 .card-body {
-    background-color: rgb(33, 37, 41);
-    color: #ddd;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    color: #333333;
 }
 
 .card-title {
+    color: #333333;
     font-weight: 900;
 }
 
